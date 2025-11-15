@@ -1,4 +1,4 @@
--- Ex o2: Liste todos os pedidos e nomes de clientes
+-- Exercicio 02: Liste todos os pedidos e nomes de clientes (INNER JOIN).
 
 SELECT clientes.nome, COUNT(pedidos) AS tota_pedidos
 FROM clientes
